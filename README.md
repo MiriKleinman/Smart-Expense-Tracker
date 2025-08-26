@@ -1,40 +1,59 @@
-# Smart Expense Tracker
+# SmartExpenseTracker
 
-A comprehensive personal finance management application built with Angular 20, .NET Core 8, and SQL Server. Track your income, expenses, and budgets with beautiful visualizations and intelligent insights.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
 
-## 🌟 Features
+## Development server
 
-### Core Functionality
-- **Dashboard Overview**: Real-time financial summary with income, expenses, and balance
-- **Transaction Management**: Add, edit, delete, and categorize transactions
-- **Budget Planning**: Set monthly budgets and track spending against limits
-- **Analytics & Reports**: Visual charts and insights into spending patterns
-- **Category Management**: Organize transactions into customizable categories
-- **Export Capabilities**: Download financial data in CSV/PDF formats
+To start a local development server, run:
 
-### Technical Features
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- **Real-time Updates**: Live data synchronization across all components
-- **Modern UI/UX**: Google Material Design principles with smooth animations
-- **Progressive Web App**: Fast loading and offline capabilities
-- **Secure Authentication**: JWT-based authentication system
-- **API Integration**: RESTful API with proper error handling
-- 
+```bash
+ng serve
+```
 
-## 🛠️ Technology Stack
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-### Frontend
-- **Angular 20** - Modern TypeScript framework
-- **Chart.js** - Interactive data visualizations
-- **Angular Material** - UI component library
-- **RxJS** - Reactive programming with observables
-- **TypeScript** - Type-safe development
+## Code scaffolding
 
-### Backend 
-- **.NET Core 8** - High-performance web API
-- **Entity Framework Core** - ORM for database operations
-- **SQL Server** - Relational database management
-- **JWT Authentication** - Secure user authentication
-- **AutoMapper** - Object-to-object mapping
-- **Swagger** - API documentation
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
+```bash
+ng generate component component-name
+```
+
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+
+```bash
+ng generate --help
+```
+
+## Building
+
+To build the project run:
+
+```bash
+ng build
+```
+
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Running unit tests
+
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
